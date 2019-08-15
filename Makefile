@@ -4,8 +4,8 @@ TARGET = qr
 OBJ_PATH = objs
 CC = g++
 INCLUDES = -Iinclude -I/usr/local/include/opencv4/
-LIBS = -L/usr/local/lib -lopencv_core -lopencv_imgproc -lopencv_highgui -lopencv_imgcodecs -lzbar -lopencv_ximgproc -lopencv_objdetect
-CFLAGS = -Wall -Werror -O2 -g -fopenmp 
+LIBS = -L/usr/local/lib -lopencv_core -lopencv_imgproc -lopencv_highgui -lopencv_imgcodecs -lopencv_ximgproc -lopencv_objdetect
+CFLAGS = -Wall -Werror -O3 -fopenmp 
 LINKFLAGS = -fopenmp
 
 SRCDIR = src

@@ -2,8 +2,8 @@
 
 ## Requirements
 
-- OpenMP
-- OpenCV >= 3.4
+- `OpenMP`
+- `OpenCV >= 3.4`
 
 ## Build
 
